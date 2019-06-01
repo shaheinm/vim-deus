@@ -409,7 +409,7 @@ if version >= 703
 endif
 
 " Weird black color breaks
-hi! link NonText deusGray
+hi! link NonText deusBg0
 hi! link SpecialKey deusOrange
 
 call s:HL('Visual',    s:none,  s:bg3, s:invert_selection)
