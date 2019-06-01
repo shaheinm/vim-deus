@@ -408,8 +408,8 @@ if version >= 703
   call s:HL('CursorLineNr', s:fg1, s:bg2)
 endif
 
-" Weird black color breaks 
-hi! link NonText deusGreen 
+" Weird black color breaks
+hi! link NonText deusGreen
 hi! link SpecialKey deusOrange
 
 call s:HL('Visual',    s:none,  s:bg3, s:invert_selection)
@@ -424,7 +424,7 @@ call s:HL('StatusLine',   s:bg2, s:fg1, s:bold . s:inverse)
 call s:HL('StatusLineNC', s:bg2, s:fg1, s:bold . s:inverse)
 
 " The column separating vertically split windows
-call s:HL('VertSplit', s:fg4, s:vert_split)
+call s:HL('VertSplit', s:none, s:vert_split)
 
 " Current match in wildmenu completion
 call s:HL('WildMenu', s:blue, s:bg2, s:bold)
@@ -885,9 +885,9 @@ hi! link  EnumValueTag deusAqua
 hi! link  UnionTag deusPurple
 hi! link  FieldTag deusPurple
 hi! link  LocalVariableTag deusOrange
-hi! link  FunctionTag deusGreen 
+hi! link  FunctionTag deusGreen
 hi! link  MethodTag deusGreen
-hi! link  FunctionParameterTag deusPurpleBold 
+hi! link  FunctionParameterTag deusPurpleBold
 hi! link  TemplateTypeParameterTag deusPurple
 hi! link  TemplateNonTypeParameterTag deusRedBold
 hi! link  TemplateTemplateParameterTag deusRed
