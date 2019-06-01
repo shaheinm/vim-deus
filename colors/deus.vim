@@ -409,7 +409,7 @@ if version >= 703
 endif
 
 " Weird black color breaks
-hi! link NonText deusGreen
+hi! link NonText deusGray
 hi! link SpecialKey deusOrange
 
 call s:HL('Visual',    s:none,  s:bg3, s:invert_selection)
@@ -420,11 +420,11 @@ call s:HL('IncSearch', s:bg0, s:hls_cursor)
 
 call s:HL('Underlined', s:blue, s:none, s:underline)
 
-call s:HL('StatusLine',   s:bg2, s:bg2, s:bold . s:inverse)
-call s:HL('StatusLineNC', s:bg2, s:bg2, s:bold . s:inverse)
+call s:HL('StatusLine',   s:bg2, s:fg1, s:bold . s:inverse)
+call s:HL('StatusLineNC', s:bg2, s:fg1, s:bold . s:inverse)
 
 " The column separating vertically split windows
-call s:HL('VertSplit', s:none, s:none)
+call s:HL('VertSplit', s:fg4, s:vert_split)
 
 " Current match in wildmenu completion
 call s:HL('WildMenu', s:blue, s:bg2, s:bold)
