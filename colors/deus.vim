@@ -955,7 +955,7 @@ hi! link cssGeneratedContentProp deusAqua
 " JavaScript: {{{
 
 hi! link javaScriptBraces deusFg1
-hi! link javaScriptFunction deusAqua
+hi! link javaScriptFunction deusOrange
 hi! link javaScriptIdentifier deusRed
 hi! link javaScriptMember deusBlue
 hi! link javaScriptNumber deusPurple
