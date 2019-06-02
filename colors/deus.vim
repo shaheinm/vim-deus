@@ -523,7 +523,7 @@ hi! link Constant deusPurple
 hi! link Character deusPurple
 " String constant: "this is a string"
 if g:deus_improved_strings == 0
-  call s:HL('String',  s:green, s:none, s:italicize_strings)
+  call s:HL('String',  s:blue, s:none, s:italicize_strings)
 else
   call s:HL('String',  s:bg1, s:fg1, s:italicize_strings)
 endif
@@ -1178,8 +1178,8 @@ hi! link haskellChar deusGreen
 " }}}
 " Json: {{{
 
-hi! link jsonKeyword deusOrange
-hi! link jsonQuote deusOrangeBold
+hi! link jsonKeyword deusGreen
+hi! link jsonQuote deusGreen
 hi! link jsonBraces deusFg1
 hi! link jsonString deusFg1
 
