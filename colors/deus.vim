@@ -523,7 +523,7 @@ hi! link Constant deusPurple
 hi! link Character deusPurple
 " String constant: "this is a string"
 if g:deus_improved_strings == 0
-  call s:HL('String',  s:blue, s:none, s:italicize_strings)
+  call s:HL('String',  s:aqua, s:none, s:italic)
 else
   call s:HL('String',  s:bg1, s:fg1, s:italicize_strings)
 endif
