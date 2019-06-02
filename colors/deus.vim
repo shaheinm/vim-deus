@@ -1076,10 +1076,7 @@ hi! link javaParen3 deusFg3
 hi! link javaParen4 deusFg3
 hi! link javaParen5 deusFg3
 hi! link javaOperator deusOrange
-hi! link javaFuncDef deusGreenBold
-hi! link javaClassDecl deusPurpleBold
-hi! link javaTypeDef deusOrangeBold
-hi! link javaScopeDecl deusPurple
+
 hi! link javaVarArg deusGreen
 
 " }}}
