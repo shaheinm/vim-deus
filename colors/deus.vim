@@ -955,7 +955,7 @@ hi! link cssGeneratedContentProp deusAqua
 " JavaScript: {{{
 
 hi! link javaScriptBraces deusFg1
-hi! link javaScriptFunction deusRed
+hi! link javaScriptFunction deusAqua
 hi! link javaScriptIdentifier deusRed
 hi! link javaScriptMember deusBlue
 hi! link javaScriptNumber deusPurple
@@ -967,9 +967,9 @@ hi! link javaScriptParens deusFg3
 
 hi! link javascriptImport deusAqua
 hi! link javascriptExport deusAqua
-hi! link javascriptClassKeyword deusRed
-hi! link javascriptClassExtends deusRed
-hi! link javascriptDefault deusRed
+hi! link javascriptClassKeyword deusAqua
+hi! link javascriptClassExtends deusAqua
+hi! link javascriptDefault deusAqua
 
 hi! link javascriptClassName deusYellow
 hi! link javascriptClassSuperName deusYellow
@@ -989,9 +989,9 @@ hi! link javascriptClassSuper deusOrange
 
 " hi! link javascriptFuncKeyword deusOrange
 " hi! link javascriptAsyncFunc deusOrange
-hi! link javascriptFuncKeyword deusRed
-hi! link javascriptAsyncFunc deusRed
-hi! link javascriptClassStatic deusRed
+hi! link javascriptFuncKeyword deusAqua
+hi! link javascriptAsyncFunc deusAqua
+hi! link javascriptClassStatic deusOrange
 
 hi! link javascriptOperator deusRed
 hi! link javascriptForOperator deusRed
@@ -999,7 +999,7 @@ hi! link javascriptYield deusRed
 hi! link javascriptExceptions deusRed
 hi! link javascriptMessage deusRed
 
-hi! link javascriptTemplateSB deusOrange
+hi! link javascriptTemplateSB deusAqua
 hi! link javascriptTemplateSubstitution deusFg1
 
 " hi! link javascriptLabel deusBlue
@@ -1178,8 +1178,8 @@ hi! link haskellChar deusGreen
 " }}}
 " Json: {{{
 
-hi! link jsonKeyword deusGreen
-hi! link jsonQuote deusGreen
+hi! link jsonKeyword deusOrange
+hi! link jsonQuote deusOrangeBold
 hi! link jsonBraces deusFg1
 hi! link jsonString deusFg1
 
