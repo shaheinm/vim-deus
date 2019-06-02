@@ -504,7 +504,7 @@ hi! link Keyword deusRed
 " Variable name
 hi! link Identifier deusBlue
 " Function name
-hi! link Function deusGreenBold
+hi! link Function deusBlueBold
 
 " Generic preprocessor
 hi! link PreProc deusAqua
