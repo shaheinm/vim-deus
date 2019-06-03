@@ -410,7 +410,7 @@ endif
 
 " Weird black color breaks
 hi! link NonText deusBg0
-hi! link SpecialKey deusFg0
+hi! link SpecialKey deusOrange
 
 call s:HL('Visual',    s:none,  s:bg3)
 hi! link VisualNOS Visual
