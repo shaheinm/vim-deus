@@ -386,7 +386,7 @@ if version >= 700
   hi! link CursorColumn CursorLine
 
   " Tab pages line filler
-  call s:HL('TabLineFill', s:bg0, s:vim_bg, s:invert_tabline)
+  call s:HL('TabLineFill', s:bg4, s:vim_bg, s:invert_tabline)
   " Active tab page label
   call s:HL('TabLineSel', s:vim_bg, s:bg4, s:bold . s:invert_tabline)
 
@@ -410,7 +410,7 @@ endif
 
 " Weird black color breaks
 hi! link NonText deusBg0
-hi! link SpecialKey deusOrange
+hi! link SpecialKey deusFg0
 
 call s:HL('Visual',    s:none,  s:bg3)
 hi! link VisualNOS Visual
